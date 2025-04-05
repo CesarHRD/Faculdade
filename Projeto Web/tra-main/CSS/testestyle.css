@@ -1,0 +1,43 @@
+.subtitulo{
+    margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 8px;
+  font-size: 14px;
+  }
+  
+  #extra>ul{
+  list-style: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  }
+  
+  #extra>ul>li{
+  display: inline;
+  margin-right: 20px;
+  margin-left: 20px;
+  
+  }
+  
+  #extra {
+    display: flex; /* Ativa o flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+  }
+  
+  #extra > ul > li > a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  #extra > ul > li > a:hover {
+    text-decoration: underline; /* sublinha só no hover */
+  }
+
+  .foto{
+    width: 4px;
+    border-width: 1px;
+  }
