@@ -1,0 +1,64 @@
+.search-input{
+  width: 100% !important;
+}
+
+
+
+#extra>ul{
+list-style: none;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+#extra>ul>li{
+display: inline;
+margin-right: 20px;
+margin-left: 20px;
+
+}
+
+#extra {
+  display: flex; /* Ativa o flexbox */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+}
+
+#extra > ul > li > a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+#extra > ul > li > a:hover {
+  text-decoration: underline; /* sublinha só no hover */
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: black;
+  text-decoration: none;
+}
+
+#Venda{
+  color: white;
+  text-decoration: none;
+}
+
+#Venda:hover{
+  color: white;
+  text-decoration: none;
+}
+
+del{
+  color: red
+}
+
+#preço{
+  color: rgb(128, 185, 44);
+}

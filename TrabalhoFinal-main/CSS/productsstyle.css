@@ -1,0 +1,107 @@
+
+
+#extra>ul{
+  list-style: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#extra>ul>li{
+  display: inline;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#extra {
+  display: flex; /* Ativa o flexbox */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#extra > ul > li > a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+#extra > ul > li > a:hover {
+  text-decoration: underline; /* sublinha só no hover */
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: black;
+  text-decoration: none;
+}
+
+.foto{
+  width: 140px;
+  border-width: 1px;
+  margin-top: 50px;
+  padding-top: 10px;
+  margin-left: 50px;
+}
+
+.foto>img{
+  width: 125px;
+  padding-left: 16px;
+}
+
+#produtoPricipal>img{
+  width: 500px;
+  height: 500px;
+  margin-left: 400px;
+  margin-left: 50px;
+}
+
+#produtoPricipal{
+  display: flex;
+  align-items: center;
+  padding-top: 0px;
+}
+
+.descrição{
+  width: 400px;
+  border: 1px solid black;
+  margin-top: 0px;
+  margin-left: 75px;
+}
+
+#preço{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+#parcela{
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+#tamanho button{
+  margin: 5px;
+  font-size: 16px;
+  width: 60px;
+}
+
+#frete{
+  color: rgb(0, 166, 80);
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.comprar{
+  margin: 40px 0px 20px 30px;
+  padding-left: 70px ;
+}
+
+.comprar>input{
+  height: 90px;
+  width: 200px;
+}
